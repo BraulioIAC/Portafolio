@@ -15,7 +15,8 @@ html{
     position: relative;
 }
 main{
-    background: linear-gradient(to bottom right, #5D0780, #474747);
+    /* background: linear-gradient(to bottom right, #5D0780, #474747); */
+    padding-bottom: 20vh;
 }
 /* begin Welcome section*/
 #Welcome{
@@ -62,12 +63,75 @@ main{
 /* end Welcome section*/
 
 /* begin About section */
-#about{
-    /* background-color: #474747; */
+#About{
+    background: linear-gradient(to bottom right, #5D0780, #474747);
 }
 #about-text{
     color: whitesmoke;
-    /* padding-top: 20vh; */
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     padding-left: 5vw;
     width: 70%;
 }
+
+.card{
+    width: 70%;
+}
+.card img{
+    object-fit: cover;
+}
+
+#education-text{
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+#education-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center ;
+    align-items: center;
+}
+.container-card-img{
+    background-color: #474747;
+}
+.card-img{
+    opacity: 0.5;
+}
+
+
+/* begin Education section */
+#Education{
+    background: linear-gradient(to bottom left, #474747,#5D0780);
+    padding-bottom: 10vh;
+}
+
+/* end Education section*/
+
+/* begin Skills section*/
+#Skills{
+    background-color: #FF69B4;
+    height: 30vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+/* end Skills section*/
+
+/* begin Projects section*/
+#Projects{
+    background-color: #474747;
+    color: whitesmoke;
+    height: 30vh;
+    padding-top: 10vh;
+}
+/* end Projects section*/
+
+/* begin Contact section*/
+#Contact{
+    background-color: #5D0780;
+    color: whitesmoke;
+    height: 30vh;
+    padding-top: 10vh;
+}
+/* end Contact section*/
