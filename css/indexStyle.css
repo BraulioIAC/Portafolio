@@ -1,0 +1,72 @@
+html{
+    background-color: black;
+}
+
+#nav-tittle{
+    margin-left: 5vw;
+}
+#nav-items{
+    justify-content: center;
+    gap: 5vw;
+}
+#navbar{
+    background-color: #5D0780;
+    border-bottom: 1px solid #FF69B4;
+    position: relative;
+}
+main{
+    background: linear-gradient(to bottom right, #5D0780, #474747);
+}
+/* begin Welcome section*/
+#Welcome{
+    background-color: #474747;
+    color: whitesmoke;
+    /* background-image: url("../src/img/backgrounds/milad-fakurian-Oi_oaJk3qlo-unsplash.jpg"); */
+    background-image: linear-gradient(to bottom,rgba(58, 59, 61),rgba(58, 59, 61, 0.4)),
+    url("../src/img/backgrounds/kai-oberhauser-BKAaLmT0tIs-unsplash.jpg");
+    /* background-image: url("../src/img/backgrounds/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg"); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container-spinner{
+    display: flex;
+    align-items: center; /* Alinea verticalmente */
+    justify-content: left; /* Alinea horizontalmente */
+    flex-direction: row;
+}
+.item-Title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+#spinner{
+    color: #FF69B4;
+}
+#description-about{
+    width: 40vw;
+}
+#profile-image{
+    width: 20vw;
+    height: 100%;
+    border-radius: 100%;
+    border: 1px solid #FF69B4;
+}
+
+/* end Welcome section*/
+
+/* begin About section */
+#about{
+    /* background-color: #474747; */
+}
+#about-text{
+    color: whitesmoke;
+    padding-top: 20vh;
+    padding-left: 5vw;
+    width: 70%;
+}
