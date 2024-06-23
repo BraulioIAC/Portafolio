@@ -32,6 +32,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 #container-spinner{
     display: flex;
@@ -66,7 +67,7 @@ main{
 }
 #about-text{
     color: whitesmoke;
-    padding-top: 20vh;
+    /* padding-top: 20vh; */
     padding-left: 5vw;
     width: 70%;
 }
